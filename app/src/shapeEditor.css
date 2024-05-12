@@ -1,0 +1,106 @@
+div#shapeEditor {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#displayArea {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#selectOneOrTooMany {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#formContainer {
+    flex: 1;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+
+#shapeDisplay {
+    width: 50vmin;
+    height: 50vmin;
+    margin: 10px;
+}
+
+#shapeDisplaySquare {
+    width: 50vmin;
+    height: 50vmin;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#hue-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#hue-input {
+    font-size: 18px;
+    width: 60px;
+}
+
+#radius-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#radius-input {
+    font-size: 18px;
+    width: 60px;
+}
+
+#points-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#points-input {
+    font-size: 18px;
+    width: 60px;
+}
+
+#hue2-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#hue2-input {
+    font-size: 18px;
+    width: 60px;
+}
+
+#rings-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#rings-input {
+    font-size: 18px;
+    width: 60px;
+}
+
+#look-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#lookSelect {
+    font-size: 18px;
+    width: 80px;
+}

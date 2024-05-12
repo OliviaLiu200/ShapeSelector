@@ -1,0 +1,38 @@
+div#shapelist {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.shape-container {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.shape-container:hover {
+    outline: 4px solid lightblue;
+}
+
+.shape-container.selected {
+    position: relative;
+}
+
+.shape-container.selected::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border: 1px solid blue;
+    pointer-events: none;
+}
+
+.shape canvas {
+    border: 1px solid lightgrey;
+}
