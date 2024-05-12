@@ -1,4 +1,4 @@
-A color and shape selector webapp built with react
+A shape editing webapp built with react. Complete with undo and redo stacks.
 
 To run to webapp:
 
